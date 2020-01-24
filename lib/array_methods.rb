@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   array.length.times do
     index +=1
     if array[index] == value_to_find
-      return true
+      return index
     end
   end
   return nil
